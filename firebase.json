@@ -1,0 +1,35 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tezda-task-ec6ad",
+          "appId": "1:195581272943:android:0c1b6f343a630055ce3e9a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "tezda-task-ec6ad",
+          "appId": "1:195581272943:ios:4b36cea70cba05acce3e9a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tezda-task-ec6ad",
+          "configurations": {
+            "android": "1:195581272943:android:0c1b6f343a630055ce3e9a",
+            "ios": "1:195581272943:ios:4b36cea70cba05acce3e9a",
+            "web": "1:195581272943:web:7f42e86b7ae88055ce3e9a"
+          }
+        }
+      }
+    }
+  }
+}

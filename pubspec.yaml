@@ -1,0 +1,52 @@
+name: tezda_task
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^5.1.0
+  fan_carousel_image_slider: ^1.0.1
+  firebase_auth: ^5.1.2
+  firebase_core: ^3.2.0
+  firebase_storage: ^12.1.1
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_iconly: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  fluttertoast: ^8.2.6
+  get_it: ^7.7.0
+  hooks_riverpod: ^2.5.1
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - .env.dev
+    - .env.prod
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/DMSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSans-Regular.ttf
+          weight: 400
